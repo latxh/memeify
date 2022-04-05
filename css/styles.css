@@ -192,7 +192,7 @@ h2 {
     #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px;
   color: #1238bf; */
   color: transparent;
-  -webkit-text-stroke: 1px #fff;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
 }
 
 .logo-wrap {
