@@ -1,0 +1,199 @@
+* {
+    font-family: "Shopify Sans-Regular", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    color-scheme: dark;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    /* background-color: #1238BF; */
+    background: linear-gradient(350deg, #1238BF, #071446);
+}
+
+
+h2 {
+    font-family: "Shopify Sans-Extrabold";
+    font-size: 48px;
+}
+
+.lime {
+    color: #D0F224;
+}
+
+.chip {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    border: 2px solid #D0F224;
+    border-radius: 50px;
+    padding: 8px 16px;
+    width: min-content;
+    margin-left: 1000px;
+    margin-top: 24px;
+}
+
+.chip h4 {
+    font-family: "Shopify Sans-Light";
+    font-size: 15px;
+}
+
+/* CSS */
+.button {
+  appearance: button;
+  background-color: #D0F224;
+  background-image: none;
+  border: 3px solid #000;
+  border-radius: 4px;
+  box-shadow: #000 3px 3px 0 0,#000 3px 3px 0 1px;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 10px;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.button:focus {
+  text-decoration: none;
+}
+
+.button:hover {
+  text-decoration: none;
+}
+
+.button:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button:not([disabled]):active {
+  box-shadow: #000 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+
+.secondary {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    appearance: button;
+    background-color: transparent;
+    background-image: none;
+    /* border: 3px solid #000; */
+    border-radius: 4px;
+    /* box-shadow: #000 3px 3px 0 0,#000 3px 3px 0 1px; */
+    box-sizing: border-box;
+    /* color: #000; */
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 10px;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .button, .secondary {
+    padding: 12px 150px;
+  }
+}
+
+
+.button-wrap {
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    margin: auto;
+}
+
+.page-wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.shop-logo {
+    margin-bottom: 32px;
+}
+
+.memions{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  z-index: -1;
+}
+
+@keyframes left {
+  from {
+    left: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    left: 100%;
+    transform: translateX(0);
+  }
+}
+
+.memions p:first-child{
+  position: relative;
+  width: min-content;
+  left: 0;
+  transform: translateX(-100%);
+  animation: left 16s infinite linear;
+}
+
+.memions p:last-child{
+  position: relative;
+  width: min-content;
+  left: 0;
+  transform: translateX(-100%);
+  animation: left 16s infinite linear reverse 3s;
+}
+
+.spacer{
+  flex: 1;
+}
+
+.memions p{
+  font-size: 200px;
+  text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+  #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+  color: #1238BF;
+}

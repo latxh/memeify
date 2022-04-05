@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "Shopify Sans-Light";
+    src:          url("../fonts/Shopify Sans-Light.otf") format("opentype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Shopify Sans-Light Italic";
+    src:          url("../fonts/Shopify Sans-Light Italic.otf") format("opentype");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Shopify Sans-Regular";
+    src:          url("../fonts/Shopify Sans-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Shopify Sans-Regular Italic";
+    src:          url("../fonts/Shopify Sans-Regular Italic.otf") format("opentype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Shopify Sans-Medium";
+    src:          url("../fonts/Shopify Sans-Medium.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Shopify Sans-Medium Italic";
+    src:          url("../fonts/Shopify Sans-Medium Italic.otf") format("opentype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "GraphikXXXCondensed-Semibold";
+    src:          url("../fonts/GraphikXXXCondensed-Semibold.otf") format("opentype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Shopify Sans-Bold Italic";
+    src:          url("../fonts/Shopify Sans-Bold Italic.otf") format("opentype");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Shopify Sans-Bold";
+    src:          url("../fonts/Shopify Sans-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Shopify Sans-Extrabold Italic";
+    src:          url("../fonts/Shopify Sans-Extrabold Italic.otf") format("opentype");
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Shopify Sans-Extrabold";
+    src:          url("../fonts/Shopify Sans-Extrabold.otf") format("opentype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Shopify Sans-Black Italic";
+    src:          url("../fonts/Shopify Sans-Black Italic.otf") format("opentype");
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Shopify Sans-Black";
+    src:          url("../fonts/Shopify Sans-Black.otf") format("opentype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Copy of Shopify Sans-Black Italic";
+    src:          url("../fonts/Copy of Shopify Sans-Black Italic.otf") format("opentype");
+    font-weight: 900;
+    font-style: italic;
+}
+
